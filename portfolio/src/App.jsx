@@ -1,13 +1,20 @@
-import CenterSpace from "./CenterSpace";
-import MyCanvas from "./MyCanvas";
-
+import CenterSpace from "./components/CenterSpace/CenterSpace";
+import MyCanvas from "./components/MyCanvas/MyCanvas";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <div>
+    <>
       <MyCanvas/>
       <CenterSpace/>
-    </div>
+      <NavBar />
+      <About />
+      <Contact />
+      <Projects/>
+    </>
   )
 }
 
