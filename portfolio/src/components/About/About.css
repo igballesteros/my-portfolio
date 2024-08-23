@@ -1,0 +1,96 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 20vw;
+  height: auto;
+  border-radius: 100%;
+}
+
+.text {
+  width: 55vw;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skillsRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skillItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid #9649cb;
+  border-radius: 10px;
+  margin: 0 0 15px 0;
+  width: 130px;
+  height: 90px;
+}
+
+.left {
+  margin: 0 15px 0 0;
+}
+
+.htmlSize {
+  height: 75px;
+  width: 75px;
+}
+
+.cssSize {
+  height: 85px;
+  width: 85px;
+}
+
+.reactSize {
+  height: 85px;
+  width: 85px;
+  margin: 0 0 0 0;
+}
+
+.cSize {
+  height: 85px;
+  width: 85px;
+}
+
+.pythonSize {
+  height: 85px;
+  width: 85px;
+}
+
+.gitSize {
+  height: 85px;
+  width: 85px;
+}
+
+.jsSize {
+  height: 85px;
+  width: 85px;
+}
+
+.nodeSize {
+  height: 85px;
+  width: 85px;
+}
+
+.expSize {
+  height: 85px;
+  width: 85px;
+}
+
+.sqlSize {
+  height: 85px;
+  width: 85px;
+  margin: 0 0 0 0;
+}
