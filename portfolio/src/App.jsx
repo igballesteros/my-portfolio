@@ -4,16 +4,19 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import NavBar from "./components/NavBar/NavBar";
+import "./style.css"
 
 function App() {
   return (
     <>
+    <div className="theme">
       <MyCanvas/>
       <CenterSpace/>
       <NavBar />
       <About />
-      <Contact />
       <Projects/>
+      <Contact />
+      </div>
     </>
   )
 }
