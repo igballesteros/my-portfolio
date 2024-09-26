@@ -147,7 +147,11 @@ function MyCanvas() {
 
     }, []);
 
-    return <canvas id="home" ref={canvasRef} className={styles.canvas}></canvas>
+    return (
+	<>
+		<canvas id="home" ref={canvasRef} className={styles.canvas}></canvas>
+	</>
+	)
 }
 
 export default MyCanvas;

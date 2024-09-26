@@ -4,4 +4,12 @@
   color: white;
   font-family: "Zilla Slab", serif;
   font-size: 1.3rem;
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
 }

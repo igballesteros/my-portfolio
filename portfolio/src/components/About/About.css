@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
@@ -21,6 +23,7 @@
 }
 
 .skillsRow {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
