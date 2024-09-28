@@ -1,21 +1,25 @@
 import "./footer.css"
+import github from "./img/github.png"
+import linkedin from "./img/linkedin-logo.png"
+
 
 const Footer = () => {
     return(
       <section id="footer" className="footer">
         <div className="container">
-          <div>
-            git
-            <a href=""></a>
+          <div className="box">
+            <a href="https://github.com/igballesteros">
+              <img src={github} alt="Github Logo" className="git"/>
+            </a>
           </div>
           <div>
-            email
-            <a href=""></a>
+            <a href="https://www.linkedin.com/in/ignacio-ballesteros-19122000/">
+              <img src={linkedin} alt="Linkedin Logo" className="linkedin"/>
+            </a>
           </div>
-          <div>
-            linkedin
-            <a href=""></a>
-          </div>
+        </div>
+        <div className="signature">
+          Ignacio Ballesteros
         </div>
       </section>
     )

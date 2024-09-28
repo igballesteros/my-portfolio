@@ -19,7 +19,9 @@ function Projects() {
                     is configured to actively listen for incoming HTTP POST requests specifically 
                     directed to the &quot;./data&quot; endpoint.
                   </p>
-                  <button className="button-9" role="button">Go to Code</button>
+                  <a href="https://github.com/igballesteros/dish-device" target="_blank">
+                    <button className="button-9" role="button">Go to Code</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -36,7 +38,9 @@ function Projects() {
                     Next.js, Vercel, and PostgreSQL. This fullstack project was created to have a better
                     grasp on popular frameworks and technologies such as Vercel.
                   </p>
-                  <button className="button-9" role="button">Go to Code</button>
+                  <a href="https://github.com/igballesteros/nextjs-practice" target="_blank">
+                    <button className="button-9" role="button">Go to Code</button>
+                  </a>
                 </div>
                 <div className="decoration">
                   <img src="./src/components/Projects/img/dashboard.png" alt="" className="image-right" />
@@ -60,7 +64,9 @@ function Projects() {
                     Helped me better understand technologies such as Firebase and concepts such as server
                     interactions.
                   </p>
-                  <button className="button-9" role="button">Go to Code</button>
+                  <a href="https://github.com/igballesteros/react-chat" target="_blank">
+                    <button className="button-9" role="button">Go to Code</button>
+                  </a>
                 </div>
               </div>
               <div className="separator-right">
