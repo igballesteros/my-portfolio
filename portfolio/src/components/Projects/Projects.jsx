@@ -1,4 +1,8 @@
 import "./Projects.css"
+import device from "./img/device.jpg"
+import dashboard from "./img/dashboard.png"
+import chat from "./img/live-chat.png"
+
 
 function Projects() {
     return (
@@ -10,7 +14,7 @@ function Projects() {
               </div>
               <div className="project-left">
                 <div className="decoration">
-                  <img src="./src/components/Projects/img/device.jpg" alt="" className="image-left"/>
+                  <img src={device} alt="" className="image-left"/>
                 </div>
                 <div className="info">
                   <p className="texts-right">
@@ -43,7 +47,7 @@ function Projects() {
                   </a>
                 </div>
                 <div className="decoration">
-                  <img src="./src/components/Projects/img/dashboard.png" alt="" className="image-right" />
+                  <img src={dashboard} alt="" className="image-right" />
                 </div>
               </div>
             </div>
@@ -56,7 +60,7 @@ function Projects() {
               </div>
               <div className="project-left">
                 <div className="decoration">
-                  <img src="./src/components/Projects/img/live-chat.png" alt="" className="image-left" />
+                  <img src={chat} alt="" className="image-left" />
                 </div>
                 <div className="info">
                   <p className="texts-right">A live chat application that allows users to sign in to the platform using
